@@ -5,6 +5,48 @@ body {
   margin: 0;    
 }
 
+.titles {
+  padding: 1em;
+  color: #fff;
+  position: absolute;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 100;
+  font-size: 1.6em;
+  z-index: 999;
+}
+
+.titles a {
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  display: inline-block;
+   -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.titles a:hover {
+  color: #22aeeb;
+   -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}
+h1 {
+  margin: 0 0 0.4em;
+  padding: 0;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 1.6em;
+}
+
+#mainCanvas {
+  height: 100%;
+  width: 60%;
+}
+
 
 @-webkit-keyframes starpusher {
   0%    { background-position-x: 0; }
@@ -37,14 +79,14 @@ body {
 }
 .stars {
   background: url('images/stars.svg') 0 0 no-repeat;
-  -webkit-animation: starpusher 20s linear infinite;
+  -webkit-animation: starpusher 30s linear infinite;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover; 
 }
 .mountains {
   background: url('images/mountains.svg') 0 0 no-repeat;
-  -webkit-animation: starpusher 15s linear infinite;
+  -webkit-animation: starpusher 20s linear infinite;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;    
